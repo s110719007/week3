@@ -1,7 +1,7 @@
 html{
   box-sizing:border-box;
   width: 1260px;
-  height: 880px;
+  height: 920px;
   background-color: #edf2c5; 
   margin:auto;
 }
@@ -11,7 +11,7 @@ body{
 }
 
 .set{
-  padding: 0px 160px 0px 160px;
+  margin: 0px 160px 0px 160px;
 }
 
 .top{
@@ -39,12 +39,7 @@ body{
   height: 15px;
   font-family: Arial;
   font-size: 14px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: normal;
   text-align: center;
-  color: #778a50;
   padding:5px 6px;
   margin-top:53px;
   margin-left:10px;
@@ -52,6 +47,7 @@ body{
   height: 16px;
   border: solid 1px #778a50;
   border-radius:3px;
+  color: #778a50;
 }
 
 .JOIN{
