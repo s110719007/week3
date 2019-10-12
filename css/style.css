@@ -49,6 +49,10 @@ body{
   border: solid 1px #778a50;
   border-radius:3px;
   color: #778a50;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
 }
 
 .join{
@@ -66,6 +70,10 @@ body{
   margin-left:10px;
   border-radius:3px;
   color: #778a50;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
 }
 
 
@@ -77,6 +85,9 @@ body{
     font-size: 44px;
     font-weight: 900;
     font-style: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
     line-height: 0.82;
     letter-spacing: normal;
     text-align: left;
@@ -187,6 +198,9 @@ body{
   margin-left: 30px;
   margin-top:0px;
   margin-bottom:0px;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
 }
 
 .img1{
@@ -291,6 +305,9 @@ height: 35px;
 font-family: Arial;
 font-size: 12px;
 font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+letter-spacing: normal;
 text-align: left;
 color: #7d7d7d;
 margin:15px;
