@@ -34,7 +34,7 @@ body{
   margin-top:54px;
 }
 
-.LOGIN{
+.login{
   width: 46px;
   height: 15px;
   font-family: Arial;
@@ -50,25 +50,20 @@ body{
   color: #778a50;
 }
 
-.JOIN{
+.join{
   width: 35px;
   height: 15px;
   font-family: Arial;
   font-size: 14px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: normal;
   text-align: left;
-  color: #778a50;
   padding:5px 6px;
   margin-top:54px;
-
   width: 35px;
   height: 15px;
   border: solid 1px #778a50;
   margin-left:10px;
   border-radius:3px;
+  color: #778a50;
 }
 
 
@@ -102,7 +97,7 @@ body{
   padding-left: 10px;
   margin-top:55px;
 }
-/* nav */
+
 .rec{
   display:flex;
   flex-direction:row;
