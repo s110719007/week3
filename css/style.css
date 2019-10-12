@@ -40,6 +40,7 @@ body{
   font-family: Arial;
   font-size: 14px;
   text-align: center;
+  font-weight: bold;
   padding:5px 6px;
   margin-top:53px;
   margin-left:10px;
@@ -56,6 +57,7 @@ body{
   font-family: Arial;
   font-size: 14px;
   text-align: left;
+  font-weight: bold;
   padding:5px 6px;
   margin-top:54px;
   width: 35px;
@@ -178,9 +180,6 @@ body{
   font-family: Arial;
   font-size: 16px;
   font-weight: 900;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: normal;
   text-align: left;
   color: #edf2c5;
   padding-top: 10px;
