@@ -164,7 +164,7 @@ body{
   object-fit: contain;
 }
 
-.veg-box{
+.vegbox{
   width: 444px;
   height: 45px;
   border-radius: 3px;
@@ -190,7 +190,7 @@ body{
   margin-bottom:0px;
 }
 
-.imggg{
+.img1{
   display:flex;
 }
 .pepper{
