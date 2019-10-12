@@ -14,6 +14,14 @@ body{
   margin: 0px 160px 0px 160px;
 }
 
+.line{
+  width: 1px;
+  height: 25px;
+  background-color: #778a50;
+  margin-inline-start: 10px;
+  margin-top:54px;
+}
+
 .top{
   display:flex;
   flex-direction: row;
@@ -24,14 +32,6 @@ body{
   display:flex;
   flex-direction: row;
   margin-top: 0px;
-}
-
-.line{
-  width: 1px;
-  height: 25px;
-  background-color: #778a50;
-  margin-inline-start: 10px;
-  margin-top:54px;
 }
 
 .login{
@@ -213,8 +213,6 @@ body{
   background-color: #778a50;
   margin-top: 30px;
   margin-left: 52px;
-  
-
 }
 .conword{
   width: 69px;
@@ -264,7 +262,16 @@ color: #edf2c5;
 margin:23px 479px 23px 480px;
 }
 
-.finalbox_1{
+.lastline{
+  width: 414px;
+  height: 1px;
+  background-color: #7d7d7d;
+  margin:0px 14px;
+  padding:0;
+  border-radius: 3px;
+}
+
+.lastbox{
   width: 414px;
 height: 44px;
 font-family: Arial;
@@ -277,23 +284,13 @@ text-align: left;
 color: #7d7d7d;
 margin:15px 15px 14px 15px;
 }
-.finalbox_line{
-  width: 414px;
-  height: 1px;
-  background-color: #7d7d7d;
-  margin:0px 14px;
-  padding:0;
-  border-radius: 3px;
-}
-.finalbox_2{
+
+.lastbox1{
   width: 197px;
 height: 35px;
 font-family: Arial;
 font-size: 12px;
 font-weight: normal;
-font-style: normal;
-font-stretch: normal;
-letter-spacing: normal;
 text-align: left;
 color: #7d7d7d;
 margin:15px;
