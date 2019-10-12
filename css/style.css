@@ -78,17 +78,14 @@ body{
 
 
 .vegetable{
-    color:#778a50;
     width: 271px;
     height: 62px;
     font-family: Arial;
+    color:#778a50;
     font-size: 44px;
     font-weight: 900;
     font-style: normal;
-    font-weight: normal;
     font-stretch: normal;
-    letter-spacing: normal;
-    line-height: 0.82;
     letter-spacing: normal;
     text-align: left;
     margin-top: 36px;
