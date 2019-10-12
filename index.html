@@ -1,70 +1,297 @@
-<html>
-    <head>
-<title>Vegetable</title>
-<link rel=stylesheet type="text/css" href="style.css">
-    </head>
-    <div class="set">
-<body>
-        <div class="top">
-                <div class="top1">
-                        <header>
-                                <h1 class="veg">Vegetables</h1>
-                                </header>
-                <img src="./img/btn_facebook.png" class="fb">
-                <img src="./img/btn_instagram.png" class="ig">
-            <div class="line"></div>
-        </div>
-                    <div class="login">
-                            LOGIN
-                        </div>
-         
-                    <div class="join">
-                            JOIN
-                        </div>
-                    </div>
-       <div>
-<nav>
-    <ul type="none" class="rec">
-<li class="home">Home</li>
-<li class="about">About Us</li>
-<li class="veget">Vegetables</li>
-<li class="online">Online</li>
-<li class="con">Contact</li>
-    </ul>
-</nav>
+html{
+  box-sizing:border-box;
+  width: 1260px;
+  height: 920px;
+  background-color: #edf2c5; 
+  margin:auto;
+}
+body{
+  width: 100%;
+  height:100%;
+}
 
-       </div>
-        
-    <div>
-        <img src="./img/img_main_pumpkin.png " class="pumpkin">
-    </div>
-    <div class="main-container">
-        <article class="vegbox">
-            <p class="vegword">Vegetables</p>
-            <div class="img1">
+.set{
+  margin: 0px 160px 0px 160px;
+}
 
-                <img src="./img/img_vegetables_pepper.png" class="pepper">
-                <img src="./img/img_vegetables_carrot.png" class="carrot">
-                <img src="./img/img_vegetables_corn.png" class="corn">
+.line{
+  width: 1px;
+  height: 25px;
+  background-color: #778a50;
+  margin-inline-start: 10px;
+  margin-top:54px;
+}
 
-            </div>
-        </article>
-        <aside class="conbox">
-            <p class="conword">Contact</p>
-            <span class="finalbox">
-                 <p class="finalbox_1"> For any questions or suggestions about Vegetables, Vegetables Club or your 
-                        online order you can contact Vegetables Customer Service by phone, email 
-                        or post and we’ll be happy to help.</p>
-                        <div class="finalbox_line"></div>
-                        <p class="finalbox_2"> E-mail : Vegetables@aaabbccc.com 
-                                PHONE : +886-123-456-789</p>
-            </span>
-        </aside>
-    </div>
-</div>
-    <footer class="boxfooter">
-<p class="bottom_w">Copyrights 2017 Vegetables cise / Design by Vegetables</p>
-    </footer>
+.top{
+  display:flex;
+  flex-direction: row;
+  margin-top:0px;
+}
+.top1
+{
+  display:flex;
+  flex-direction: row;
+  margin-top: 0px;
+}
 
-</body>
-</html>
+.login{
+  width: 46px;
+  height: 15px;
+  font-family: Arial;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+  padding:5px 6px;
+  margin-top:53px;
+  margin-left:10px;
+  width: 46px;
+  height: 16px;
+  border: solid 1px #778a50;
+  border-radius:3px;
+  color: #778a50;
+}
+
+.join{
+  width: 35px;
+  height: 15px;
+  font-family: Arial;
+  font-size: 14px;
+  text-align: left;
+  font-weight: bold;
+  padding:5px 6px;
+  margin-top:54px;
+  width: 35px;
+  height: 15px;
+  border: solid 1px #778a50;
+  margin-left:10px;
+  border-radius:3px;
+  color: #778a50;
+}
+
+
+.vegetable{
+    color:#778a50;
+    width: 271px;
+    height: 62px;
+    font-family: Arial;
+    font-size: 44px;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 0.82;
+    letter-spacing: normal;
+    text-align: left;
+    margin-top: 36px;
+    margin-bottom: 0px;
+}
+
+.fb{
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+  margin-left: 469px;
+  margin-top:55px;
+}
+
+.ig{
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+  padding-left: 10px;
+  margin-top:55px;
+}
+
+.rec{
+  display:flex;
+  flex-direction:row;
+  width:910px;
+  height:44px;
+  background-color: #778a50;
+  border-radius:3px;
+  padding-left: 30px;
+  }
+
+.home{
+  margin-top:10px; 
+  color: #edf2c5; 
+  width: 51px;
+  height: 23px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 900;
+}
+.about{
+  margin-left: 60px;
+  margin-top:10px;
+  color: #edf2c5; 
+  width: 80px;
+  height: 23px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 900;
+}
+.veget{
+  margin-left: 60px;
+  margin-top:10px;
+  color: #edf2c5; 
+  width: 51px;
+  height: 23px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 900;
+}
+.online{
+  margin-left: 110px;
+  margin-top:10px;
+  color: #edf2c5; 
+  width: 56px;
+  height: 23px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 900;
+}
+.con{
+  margin-left: 60px;
+  margin-top:10px;
+  color: #edf2c5; 
+  width: 69px;
+  height: 23px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.pumpkin {
+  width: 940px;
+  height: 448px;
+  object-fit: contain;
+}
+
+.vegbox{
+  width: 444px;
+  height: 45px;
+  border-radius: 3px;
+  background-color: #778a50;
+  margin-top: 30px;
+  margin-right:0px;
+}
+.vegword{
+  width: 98px;
+  height: 23px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 900;
+  text-align: left;
+  color: #edf2c5;
+  padding-top: 10px;
+  padding-bottom: 11px;
+  margin-left: 30px;
+  margin-top:0px;
+  margin-bottom:0px;
+}
+
+.img1{
+  display:flex;
+}
+.pepper{
+  margin-top: 15px;
+}
+.carrot{
+  margin-top: 12px;
+  margin-left:12px; 
+}
+.corn{
+  margin-top: 12px;
+  margin-left:12px; 
+}
+
+.conbox{
+  display:flex;
+  margin-left: 496px;
+  width: 444px;
+  height: 45px;
+  border-radius: 3px;
+  background-color: #778a50;
+  margin-top: 30px;
+  margin-left: 52px;
+}
+.conword{
+  width: 69px;
+  height: 23px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #edf2c5;
+  margin-left:30px;
+  margin-top:10px;
+}
+
+.main-container{
+  display:flex;
+}
+
+.finalbox{
+  /*display:flex;*/
+  position: absolute;
+  width: 444px;
+  height: 140px;
+  background-color: #f7fbda;
+  margin-top: 56px;
+}
+
+.boxfooter{
+  display:flex;
+  position: absolute;
+  align-items:flex-end;
+  margin-top:190px;
+  width: 1260px;
+  height: 60px;
+  background-color: #778a50;  
+  margin-left:0px;
+}
+
+.bottom_w{
+width: 301px;
+height: 14px;
+font-family: Arial;
+font-size: 12px;
+color: #edf2c5;
+margin:23px 479px 23px 480px;
+}
+
+.lastline{
+  width: 414px;
+  height: 1px;
+  background-color: #7d7d7d;
+  margin:0px 14px;
+  padding:0;
+  border-radius: 3px;
+}
+
+.lastbox{
+  width: 414px;
+height: 44px;
+font-family: Arial;
+font-size: 12px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+letter-spacing: normal;
+text-align: left;
+color: #7d7d7d;
+margin:15px 15px 14px 15px;
+}
+
+.lastbox1{
+  width: 197px;
+height: 35px;
+font-family: Arial;
+font-size: 12px;
+font-weight: normal;
+text-align: left;
+color: #7d7d7d;
+margin:15px;
+}
