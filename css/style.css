@@ -13,13 +13,7 @@ body{
 .set{
   padding: 0px 160px 0px 160px;
 }
-.fall{
-    display: flex;
-    flex-direction: row;
-    margin-left: 469px;
-    margin-right: 0px;
-    margin-top: 0px;
-}
+
 .top{
   display:flex;
   flex-direction: row;
@@ -31,6 +25,7 @@ body{
   flex-direction: row;
   margin-top: 0px;
 }
+
 .line{
   width: 1px;
   height: 25px;
@@ -81,18 +76,19 @@ body{
 }
 
 
-.veg{
-  width: 271px;
-  height: 62px;
-  font-family: Arial;
-  font-size: 44px;
-  font-weight: 900;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: normal;
-  text-align: left;
-  color: #778a50;
-  margin-bottom: 0
+.vegetable{
+    color:#778a50;
+    width: 271px;
+    height: 62px;
+    font-family: Arial;
+    font-size: 44px;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 0.82;
+    letter-spacing: normal;
+    text-align: left;
+    margin-top: 36px;
+    margin-bottom: 0px;
 }
 
 .fb{
