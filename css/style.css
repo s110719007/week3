@@ -13,7 +13,13 @@ body{
 .set{
   padding: 0px 160px 0px 160px;
 }
-
+.fall{
+    display: flex;
+    flex-direction: row;
+    margin-left: 469px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
 .top{
   display:flex;
   flex-direction: row;
