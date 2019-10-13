@@ -242,7 +242,6 @@ body{
 }
 
 .finalbox{
-  /*display:flex;*/
   position: absolute;
   width: 444px;
   height: 140px;
@@ -294,7 +293,7 @@ margin:15px 15px 14px 15px;
 }
 
 .lastbox1{
-  width: 197px;
+width: 197px;
 height: 35px;
 font-family: Arial;
 font-size: 12px;
