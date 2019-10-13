@@ -56,8 +56,6 @@ body{
 }
 
 .join{
-  width: 35px;
-  height: 15px;
   font-family: Arial;
   font-size: 14px;
   text-align: left;
@@ -81,15 +79,14 @@ body{
     width: 271px;
     height: 62px;
     font-family: Arial;
-    color:#778a50;
     font-size: 44px;
     font-weight: 900;
     font-style: normal;
     font-stretch: normal;
     letter-spacing: normal;
     text-align: left;
-    margin-top: 36px;
-    margin-bottom: 0px;
+    color: #778a50;
+    margin-bottom: 0
 }
 
 .fb{
